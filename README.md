@@ -1,6 +1,8 @@
 # B2B SaaS RevOps Intelligence Engine
 
-> **[🌐 Live Portal](https://farrux05-ai.github.io/b2b-saas-revops-intelligence/)** · **[📚 dbt Docs](https://farrux05-ai.github.io/b2b-saas-revops-intelligence/dbt_docs/)** · **[🛡️ Observability Report](https://farrux05-ai.github.io/b2b-saas-revops-intelligence/elementary_report.html)**
+> **[🌐 Live Portal](https://vinidias.github.io/b2b-saas-revops-intelligence/)** · **[📚 dbt Docs](https://vinidias.github.io/b2b-saas-revops-intelligence/dbt_docs/)** · **[🛡️ Observability Report](https://vinidias.github.io/b2b-saas-revops-intelligence/elementary_report.html)**
+
+**Languages:** [English](README.md) · [Português (Brasil)](README.pt-BR.md) · [简体中文](README.zh-CN.md)
 
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=python&logoColor=white)
@@ -197,7 +199,7 @@ END
 
 **160 dbt tests** run on every `dbt build`. **Elementary** monitors anomalies between runs and posts failures to Slack.
 
-> 🛡️ **[Live Observability Report](https://farrux05-ai.github.io/b2b-saas-revops-intelligence/elementary_report.html)**
+> 🛡️ **[Live Observability Report](https://vinidias.github.io/b2b-saas-revops-intelligence/elementary_report.html)**
 
 | Layer | Count | Types |
 |:------|:------|:------|
@@ -327,14 +329,14 @@ Every PR triggers automated quality gates via GitHub Actions.
 
 ![Slim CI](screenshots/slim_ci.png)
 
-> Every merge auto-deploys to **[farrux05-ai.github.io/b2b-saas-revops-intelligence](https://farrux05-ai.github.io/b2b-saas-revops-intelligence/)**
+> Every merge auto-deploys to **[vinidias.github.io/b2b-saas-revops-intelligence](https://vinidias.github.io/b2b-saas-revops-intelligence/)**
 
 ---
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/farrux05-ai/b2b-saas-revops-intelligence.git
+git clone https://github.com/vinidias/b2b-saas-revops-intelligence.git
 cd b2b-saas-revops-intelligence
 uv venv .venv && source .venv/bin/activate
 uv pip install -r requirements.txt
